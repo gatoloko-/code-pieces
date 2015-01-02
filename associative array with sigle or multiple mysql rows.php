@@ -1,5 +1,6 @@
 <?php
-	public function getArray($search){
+	
+	function getArray($search){
 	include 'plug.php';	
 	$data = array();
 	$query = "SELECT origin FROM tag WHERE slug LIKE '%".$search."%'";
